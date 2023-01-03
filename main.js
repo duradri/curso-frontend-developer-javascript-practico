@@ -14,6 +14,7 @@ shoppingCartIcon.addEventListener('click', showProductDetailMenu);
 function showProductDetailMenu(){
     productDetailMenu.classList.toggle('inactive');
     mobileMenu.classList.add('inactive');
+    desktopMenu.classList.add('inactive');
 }
 
 function showDesktopMenu (){
