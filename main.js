@@ -4,7 +4,7 @@ const burgerIcon = document.querySelector('.menu');
 const mobileMenu = document.querySelector('.mobile-menu');
 const productDetailMenu = document.querySelector('.order-detail');
 const shoppingCartIcon = document.querySelector('.navbar-shopping-cart');
-const cardsContainer = document.querySelector('.cards-container');
+const cardsContainer = document.querySelector('#cards-container');
 
 navbarEmail.addEventListener('click', showDesktopMenu);
 
