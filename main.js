@@ -31,6 +31,7 @@ function showDesktopMenu (){
 function showMobileMenu (){
     mobileMenu.classList.toggle('inactive');
     productDetailMenu.classList.add('inactive');
+    productDetail.classList.add('inactive');
 }
 
 function showProductDetail(){
